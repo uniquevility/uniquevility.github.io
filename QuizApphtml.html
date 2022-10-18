@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" type="text/css" href="quizappcss.css">
+</head>
+<body>
+    <form action="action_page.php" method="GET"> 
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                        <a href="index.html"><img class="log" src="image/Logo.png"></a>
+    
+                     <nav class="nav-area">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Tablehtml.html" >Stats</a></li>
+                            <li><a href="Registrationhtml.html">Registration</a></li>
+                            <li><a href="QuizApphtml.html">Quiz App</a></li>
+                        </ul>
+                     </nav>
+                </div>
+            </div> 
+        </header>
+<br><br><br><br><br><br><br><br>
+    <div class="main">
+        <fieldset>
+            <legend class="studinfo">Student Info</legend>
+            <label>Name:</label>
+            <input type="text" name="name" placeholder="LN, FN, MN"></input> 
+            <br> <br>
+
+            <label>E-mail:</label>
+            <input type="text" name="e-mail" placeholder="popaalfred1@gmail.com"></input> 
+            <br> <br>
+
+            <label>Course:</label>
+            <input type="text" name="course" placeholder="Please input course and block"></input> 
+            <br><br>
+
+            <label>Date:</label>
+            <input type="date" id="bdate" name="bdate">
+        </fieldset>  
+
+        <fieldset>
+            <legend class="exam">Exam Proper</legend>
+            <p>1. What does HTML stand for?</p>
+            <input type="text" name="ques1"></input> 
+            <br><br>
+
+            <p>2. HTML is case sensitive.</p>
+            <input type="radio" id="true" name="ques2">True</input>
+            <input type="radio" id="false" name="ques2">False</input>
+            <br><br>
+            
+            <p>3. Select all legitimate CSS properties.</p>
+            <input type="checkbox" id="font" name="font">Font</input><br>
+            <input type="checkbox" id="label" name="label">Label</input><br>
+            <input type="checkbox" id="background" name="background">Background</input><br>
+            <input type="checkbox" id="forms" name="forms">Forms</input><br>
+
+            <p>4.Discuss if you want to be a front-end or back-end developer.</p>
+            <textarea class="textarea" name="message" placeholder="Type here..."></textarea>
+            <br><br>
+        </fieldset>
+
+        <button class="sub" type="submit">Submit</button>
+        <meter id="finish" name="finish" value="0.7">100%</meter>
+    </div>
+<div class="bottom">
+    <p class="para">Contact or find me here: </p>
+    <div class="pic">
+                  
+        <a href="image/instagram.png"><img src="image/kuQpOb-logo-instagram-images.png" width="40" height="45"></a><img src="image/fb.jpg.png" width="100" height="45"></a><img src="image/gmail.jpg.png" width="60" height="45"></a><img src="image/contact.jpg.png" width="50" height="45"></a>
+
+    <p class="cr"><i>Copyright PREDO@2022.</i></p>
+    </div>
+</div>
+
+    </form>
+
+    </body>
+    </html>
+
+   

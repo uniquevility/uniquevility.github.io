@@ -1,0 +1,342 @@
+.stud{
+    text-align: center;
+    background-color:lavender;
+    width: 1100px;
+    height: 1900px;
+    margin-left: 180px;
+    position: relative;
+
+}
+.studname{
+    text-align: left;
+    margin-left: 90px;
+}
+.firstname{
+    position: relative;
+    height: 30px;
+
+}
+.fn{
+    position: relative;
+    height: 30px;
+    top: 30px;
+    right: 128px;
+
+}
+.midname{
+    position: relative;
+    height: 30px;
+
+
+}
+.mn{
+    position: relative;
+    height: 30px;
+    top: 30px;
+    right: 136px;
+
+}
+.lastname{
+    position: relative;
+    height: 30px;
+
+}
+.ln{
+    position: relative;
+    height: 30px;
+    top: 30px;
+    right: 130px;
+
+}
+#month{
+    top: -5px;
+    right: 310px;
+    position: relative;
+    width: 300px;
+    height: 40px;
+}
+.bd{
+    text-align: left;
+    margin-left: 90px;
+    top: -59px;
+}
+.gen{
+    float: right;
+    margin-right: 150px;
+}
+.gend{
+    position: relative;
+    text-align: left;
+    margin-left: -60px;
+    top: -100px;
+}
+#gen{
+    top: -100px;
+    right: 100px;
+    position: relative;
+}
+.op{
+    top: -110px;
+    right: 60px;
+    position: relative;
+    width: 300px;
+    height: 40px;
+}
+.add{
+    position: relative;
+    text-align: left;
+    margin-left: 90px;
+    top: 30px;
+}
+.sel{
+    position: relative;
+    height: 30px;
+    top:75px;
+    right: -220px;
+}
+.address{
+    position: relative;
+    top: -10px;
+    left: -70px;
+    width: 900px;
+    height: 30px;
+}
+.addre{
+    position: relative;
+    top: 20px;
+    left: 15px;
+    width: 900px;
+    height: 30px;
+}
+.sa{
+    position: relative;
+    height: 30px;
+    top: 100px;
+    right: -480px;
+    float: left;
+}
+.city{
+    position: relative;
+    height: 30px;
+    top:200px;
+    right: 700px;
+}
+.cit{
+    position: relative;
+    top: 120px;
+    left: 20px;
+    width: 300px;
+    height: 30px;   
+}
+.pro{
+    position: relative;
+    height: 30px;
+    top:160px;
+    right: -300px;
+}
+.prov{
+    position: relative;
+    top: 120px;
+    left: 100px;
+    width: 300px;
+    height: 30px;
+}
+.pos{
+    position: relative;
+    height: 30px;
+    top: 260px;
+    right: 360px;
+}
+.post{
+    position: relative;
+    top: 180px;
+    left: 0px;
+    width: 900px;
+    height: 30px;
+}
+.em{
+    position: relative;
+    top: 210px;
+    left: -330px;
+}
+.mail{
+    position: relative;
+    top: 200px;
+    left: -20px;
+    width: 300px;
+    height: 30px;
+}
+.mob{
+    position: relative;
+    top: 150px;
+    right: 270px;
+    float: right;
+}
+.num{
+    position: relative;
+    top: 200px;
+    right: -160px;
+    width: 300px;
+    height: 30px;
+}
+.pho{
+    position: relative;
+    top: 210px;
+    left: -330px;
+}
+.pn{
+    position: relative;
+    top: 200px;
+    left: -20px;
+    width: 300px;
+    height: 30px;
+}
+.work{
+    position: relative;
+    top: 150px;
+    right: 270px;
+    float: right;
+}
+.wn{
+    position: relative;
+    top: 200px;
+    right: -160px;
+    width: 300px;
+    height: 30px;
+}
+.com{
+    position: relative;
+    top: 210px;
+    left: -290px;
+}
+.comp{
+    position: relative;
+    top: 200px;
+    left: -235px;
+    width: 300px;
+    height: 30px;
+}
+.cou{
+    position: relative;
+    top: 210px;
+    left: -350px;
+}
+.cour{
+    position: relative;
+    top: 200px;
+    left: -235px;
+    width: 300px;
+    height: 35px;
+}
+.addi{
+    position: relative;
+    top: 210px;
+    left: -300px;
+}
+.comm{
+    position: relative;
+    top: 200px;
+    left: 0px;
+    width: 800px;
+    height: 200px;
+}
+.bot{
+    position: relative;
+    top: 200px;
+    left: -235px;
+    width: 200px;
+    height: 35px;
+    color: black;
+    background-color:lightblue;
+    cursor: pointer;
+}
+.bott{
+    position: relative;
+    top: 200px;
+    left: 235px;
+    width: 200px;
+    height: 35px;
+    color: black;
+    background-color: lightblue;
+    cursor: pointer;
+}
+.bot:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.bott:hover{
+    background-color: aquamarine;
+    color: black;
+}
+body{
+    background-color:lightskyblue;
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+.log{
+    position: relative;
+    float: left;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    top: 25px;
+}
+.nav{
+    position: relative;
+    top: 80px;
+    float: right;
+    right: 60px;
+    list-style: none;
+}
+.nav li a:hover{
+    background: #fff;
+    color: #333;
+}
+.nav li{
+    display: inline-block;
+}
+.nav li a{
+    color: lightcyan;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    background-color: darksalmon;
+}
+.bottom{
+    background-color: #be9557;
+    background-size: 20% 20%;
+    text-align: left;
+    height: 10%;
+    border: 2px solid black;
+    position: relative;
+    width: 1096px;
+    height: 100px;
+
+}
+.para{
+    float:left;
+    margin: 20px;
+    position: relative;
+    top: 20px;
+
+}
+.pic{
+    float: left;
+    margin: 5px;
+    width: 1000px;
+    position: relative;
+    left: 180px;
+    top: -35px;
+}
+.cr{
+    float: right;
+    margin: 20px;
+    position: relative;
+    left: -90px;
+    top: -5px;
+    
+    
+}

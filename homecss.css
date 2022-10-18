@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+header{
+    background: lavender;
+    height: 105vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-top: auto;
+}
+
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li{
+    display: inline-block;
+}
+
+.nav-area li a{
+    color: lightcyan;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    background-color: darksalmon;
+}
+
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.logo img{
+    width:150px;
+    float:left;
+    height: 150px;
+}
+
+.about{
+    
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 37%;
+    text-align: center;
+    background-color: #be9557;
+    
+
+}
+
+.bubble{
+    position: absolute;
+    background: lavender;
+    color: black;
+    text-align: center;
+    left: 110px;
+    top: -50px;
+}
+
+.bubble::after{
+    
+    display: black;
+    position: absolute;
+
+    left: -15px;
+    top: 15px;
+
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 15px solid burlywood;
+}
+
+.name{
+    float: left;
+    margin: 1%;
+    font-style:italic;
+    font-size: large;
+}
+
+.parag{
+    text-align: justify;
+    margin: 2%;
+}
+
+.self{
+    width: 400px;
+    height: 350px;
+    position: relative;
+    top: 90px;
+    left: -160px;
+    border-radius: 200px;
+}
+
+.bottom{
+    background-color: #be9557;
+    background-size: 20% 20%;
+    text-align: left;
+    height: 10%;
+    border: 1px solid black;
+
+}
+
+.para{
+    float:left;
+    margin: 20px;
+
+}
+
+.pic{
+    float: left;
+    margin: 5px;
+    width: 1000px;
+}
+
+.map{
+    height: 45px; 
+}
+
+.cr{
+    float: right;
+    margin: 20px;
+    position: relative;
+    left: 200px;
+    
+    
+}
+.font{
+    font-style: italic;
+}
+.log{
+    position: relative;
+    border-radius: 100px;
+    left: 730px;
+    top: 75px;
+}

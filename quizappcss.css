@@ -1,0 +1,147 @@
+body{
+    background-color:lavender;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+}
+
+.main{
+    background-color: lightblue;
+    width: 930px;
+    height:900px;
+    margin: auto;
+    padding: 40px;
+    color: black;
+}
+
+form{
+    padding: 20px;
+}
+
+fieldset{
+    border-radius: 3px;
+    border-color: black;
+}
+
+.studinfo{
+    background-color:aqua;
+    border-radius: 6px;
+    width: 100px;
+    height: 20px;
+    color: black;
+}
+
+.exam{
+    background-color:aqua;
+    border-radius: 6px;
+    width: 100px;
+    height: 20px;
+    color: black;
+    
+}
+
+.textarea{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    line-height: px;
+    width:810px;
+    height: 200px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+button{
+    background-color: #3BAF9F;
+    display: block;
+    margin: 35px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #366473;
+    padding: 10px 40px;
+    outline: none;
+    color: white;
+    cursor:pointer;
+    transition: 0.25px;
+    
+  
+}
+
+#finish{
+    position:relative;
+    top: -70px;
+    left: -350px;
+   float: right;
+   height: 30px;
+   width: 300px;
+}
+.sub:hover{
+    background-color: aqua;
+    color: black;
+}
+.bottom{
+    background-color: #be9557;
+    background-size: 20% 20%;
+    text-align: left;
+    height: 10%;
+    border: 1px solid black;
+
+}
+
+.para{
+    float:left;
+    margin: 20px;
+
+}
+
+.pic{
+    float: left;
+    margin: 5px;
+    width: 1000px;
+}
+.cr{
+    float: right;
+    margin: 20px;
+    position: relative;
+    left: 200px;   
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li{
+    display: inline-block;
+}
+
+.nav-area li a{
+    color: lightcyan;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    background-color: darksalmon;
+}
+
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+.logo img{
+    width:150px;
+    float:left;
+    height: 150px;
+}
+.log{
+    position: relative;
+    border-radius: 100px;
+    left: 50px;
+    top: -15px;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}

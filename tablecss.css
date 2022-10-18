@@ -1,0 +1,106 @@
+header{
+    background: lavender;
+    height: 90.5vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-top: auto;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li{
+    display: inline-block;
+}
+
+.nav-area li a{
+    color: brown;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    background-color: darksalmon;
+}
+
+.nav-area li a:hover{
+    background:  #fff;
+    color: #333;
+}
+
+.logo img{
+    width:150px;
+    float:left;
+    height: 150px;
+    margin: 10px;
+    position: relative;
+    border-radius: 100px;
+}
+
+.cap{
+    text-align: center;
+    color: black;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+  }
+
+sup{
+    vertical-align: super;
+    font-size: small;
+}
+
+thead{
+    background-color:lightskyblue ;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tbody{
+    background-color:lightblue;
+    color: e;
+}
+
+
+.bottom{
+    background-color: #be9557;
+    background-size: 20% 20%;
+    text-align: left;
+    height: 10%;
+    border: 1px solid black;
+    color: black;
+
+}
+
+.para{
+    float:left;
+    margin: 20px;
+    color:black;
+
+}
+
+.pic{
+    float: left;
+    margin: 5px;
+    
+}
+
+.cr{
+    float: right;
+    margin: 20px;
+    color: black;
+    
+}
